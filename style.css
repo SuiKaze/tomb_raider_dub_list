@@ -18,6 +18,11 @@
 	font-size: 16px;
 }
 
+* [lang=egy] {
+	font-family: "segoe ui historic", sans-serif;
+	font-size: 16px;
+}
+
 abbr {
 	text-decoration: none;
 }
