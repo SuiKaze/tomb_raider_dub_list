@@ -1,10 +1,24 @@
+/**************************************************/
+/* Author: SuiKaze Raider.                        */
+/**************************************************/
+
 * {
-	font-family: "arial", "helvetica", sans-serif;
+	font-family: arial, helvetica, sans-serif;
 	font-size: 16px;
 }
 
 * [lang=ja] {
 	font-family: "ms pgothic", sans-serif;
+	font-size: 14px;
+}
+
+* [lang=zh] {
+	font-family: simsun, sans-serif;
+	font-size: 14px;
+}
+
+* [lang=zh-Hant] {
+	font-family: pmingliu, sans-serif;
 	font-size: 14px;
 }
 
@@ -23,16 +37,73 @@
 	font-size: 16px;
 }
 
+@media (min-width:768px){
+	div.if1 {
+		height: 100%;
+		width: 200px;
+		padding-top: 8px;
+	}
+
+	div.if2 {
+		height: 100%;
+		width: calc(100% - 200px);
+		left: 200px;
+	}
+
+	div.menu1 {
+		display: block;
+	}
+
+	div.menu2 {
+		display: none;
+	}
+}
+
+@media (max-width:767px){
+	div.if1 {
+		height: 50px;
+		width: 100%;
+		display: table;
+	}
+
+	div.if2 {
+		height: calc(100% - 50px);
+		width: 100%;
+		top: 50px;
+	}
+
+	div.menu1 {
+		display: none;
+	}
+
+	div.menu2 {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+div.if1 {
+	position: fixed;
+	background-color: #DBE5F1;
+	text-align: center;
+}
+
+div.if2 {
+	position: fixed;
+	background-color: #FFFFFF;
+}
+
+form {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
 abbr {
 	text-decoration: none;
 }
 
 h1 {
 	font-size: 20px;
-}
-
-td.if1{
-	background-color:#DBE5F1;
 }
 
 ul {
