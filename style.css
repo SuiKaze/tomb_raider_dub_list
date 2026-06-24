@@ -3,37 +3,37 @@
 /**************************************************/
 
 * {
-	font-family: arial, helvetica, sans-serif;
+	font-family: arial, helvetica, "noto sans", sans-serif;
 	font-size: 16px;
 }
 
 * [lang=ja] {
-	font-family: "ms pgothic", sans-serif;
+	font-family: "ms pgothic", "noto sans japanese", sans-serif;
 	font-size: 14px;
 }
 
 * [lang=zh] {
-	font-family: simsun, sans-serif;
+	font-family: simsun, "noto sans simplified chinese", sans-serif;
 	font-size: 14px;
 }
 
 * [lang=zh-Hant] {
-	font-family: pmingliu, sans-serif;
+	font-family: pmingliu, "noto sans traditional chinese", sans-serif;
 	font-size: 14px;
 }
 
 * [lang=ko] {
-	font-family: "malgun gothic", sans-serif;
+	font-family: "malgun gothic", "noto sans korean", sans-serif;
 	font-size: 14px;
 }
 
 * [lang=ar] {
-	font-family: "segoe ui", sans-serif;
+	font-family: "segoe ui", "noto sans arabic", sans-serif;
 	font-size: 16px;
 }
 
 * [lang=egy] {
-	font-family: "segoe ui historic", sans-serif;
+	font-family: "segoe ui historic", "noto sans egyptian hieroglyphs", sans-serif;
 	font-size: 16px;
 }
 
